@@ -102,7 +102,9 @@ set => [$array-ref, 'error-message'],
 ```
 
 #### regexp
+```perl
 regexp => [qr/^...$/, 'error-message'],
+```
 
 #### count
 ```perl
@@ -128,4 +130,5 @@ custom => sub {
 ## SEE ALSO
 
 [Input::Validator](https://metacpan.org/pod/Input::Validator)
+
 [Validate::Tiny](https://metacpan.org/pod/Validate::Tiny)
